@@ -11,4 +11,5 @@
 5. 회사 소개 페이지 클론 코딩 해보기 : [미정]()
 
 **노션 링크**
--  [html 정리](https://fan-measure-098.notion.site/HTML-99370616eec74dbaad819a2d4acef12b)
+-  [html 노트](https://fan-measure-098.notion.site/HTML-99370616eec74dbaad819a2d4acef12b)
+-  [CSS 노트](https://www.notion.so/CSS-74115eaacd644f68aa2126e1ed51783b)
