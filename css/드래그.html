@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <style type="text/css">
+            #console { width: 300px; height: 20px; border: 1px solid #ccc; }
+        </style>
+        .highlight { background-color: yellow; color: red; }
+        <script type="text/javascript">
+            function selectText() {
+                var selectionText = "";
+                if (document.getSelection) {
+                    selectionText = document.getSelection();
+                } else if (document.selection) {
+                    selectionText = document.selection.createRange().text;
+                }
+                return selectionText;
+            }
+
+            document.onmouseup = function() {
+                document.getElementById("console").innerHTML = selectText();
+            }
+            $(document).ready(function(){ var strKey = '스트링'; // 하이라이트를 적용할 스트링
+            if(strKey != ''){ $('.line').highlight(strKey);
+                }
+            });
+        </script>
+    </head>
+
+    <body>
+        <p>abcdefghijklmnopqrstuvwxyz</p>
+        <p>마우스로 드래그해서 선택한 글 나오기</p>
+        <div id="console"></div>
+    </body>
+</html>
