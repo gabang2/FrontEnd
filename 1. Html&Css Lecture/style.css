@@ -102,14 +102,6 @@ a{
     float: left;
     width: 70%;
 }
-.side-content {
-    background: pink;
-    float: right;
-    width: 30%;
-}
-.mailing-layout {
-
-}
 .mailing {
     float: left;
     width: 48%;
@@ -158,6 +150,51 @@ input[type="email"] {
     color: #44b78b;
     cursor: pointer;
 }
+.side-content {
+    float: right;
+    width: 28.5%;
+    padding: 40px 20px;
+    border-left: 1px solid #cfe3dc;
+    margin-left: 1.5%;
+}
+.container-side-cta{
+    text-align: center;
+}
+.side-cta{
+    padding: 20px 50px;
+    border-radius: 8px;
+    background: #44b78b;
+    color: white;
+    width: 300px;
+    font-weight: 400;
+    margin: auto;
+}
+.side-cta >* {
+    display: inline-block;
+    color: #C9F0DD;
+}
+.side-cta:hover{
+    background: #51be95;
+}
+.more{
+    display: block;
+    margin: 40px auto 30px;
+    color: #20aa76;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+/* .container-side-cta > *{
+    
+} */
+/* .side-cta{
+    display: inline-block;
+    font-size: 1.3rem;
+}
+.cta-soft-style{
+    display: inline-block;
+    font-size: 1.3rem;
+} */
 
 /* CONTENT-INFO */
 .footer{
