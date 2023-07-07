@@ -99,7 +99,6 @@ a{
     background: #51be95;
 }
 .main-content {
-    background: blue;
     float: left;
     width: 70%;
 }
@@ -107,6 +106,57 @@ a{
     background: pink;
     float: right;
     width: 30%;
+}
+.mailing-layout {
+
+}
+.mailing {
+    float: left;
+    width: 48%;
+}
+.mailing:first-child {
+    margin-right: 4%;
+}
+.mailing a{
+    color: #20aa76;
+}
+.mailing a:hover{
+    color: #25C488;
+}
+.mailing-title{
+    font-weight:400;
+    margin:40px 0 20px 0;
+    font-size:3.2rem;
+    letter-spacing: -1px;
+}
+.mailing-form {
+    margin: 10px 0 30px;
+    position: relative;
+}
+.mailing-form >label {
+    position:absolute;
+    width:1px;
+    height: 1px;
+    overflow: hidden;
+    background: grey;
+    margin: -1px;
+    clip: rect(0, 0, 0, 0);
+}
+input[type="email"] {
+    width: 100%;
+    border: 1px solid #cfe3dc;
+    border-radius: 4px;
+    height: 5rem;
+    padding: 6px 80px 8px 10px;
+}
+.mailing-form-btn {
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    border: 0;
+    background: transparent;
+    color: #44b78b;
+    cursor: pointer;
 }
 
 /* CONTENT-INFO */
