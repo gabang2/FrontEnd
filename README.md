@@ -4,7 +4,7 @@
 
 - Django 웹페이지 클론 코딩 : [배포된 웹사이트 바로 가기👈](https://django-clone-coding.offbeat1020.repl.co/)
 <div style="text-align:center">
-    <img width="300" alt="Django Clone Coding" src=".\src\Django Clone Coding-img.png">
+    <img width="500" alt="Django Clone Coding" src=".\src\Django Clone Coding-img.png">
 </div>
 
 ---
