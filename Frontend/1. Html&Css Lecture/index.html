@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Web Framework for perfectionists with deadlines | Django</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- 로고 -->
+            <h1 class="logo"><img src="https://static.djangoproject.com/img/logo-django.42234b631760.svg" alt="Django"></h1>
+            <!-- 네비게이션 바 -->
+            <nav class="nav">
+                <ul class="list">
+                    <li class="list-item"><a href="#">Overview</a></li>
+                    <li class="list-item"><a href="#">DownLoad</a></li>
+                    <li class="list-item"><a href="#">Documentation</a></li>
+                    <li class="list-item"><a href="#">News</a></li>
+                    <li class="list-item"><a href="#">Community</a></li>
+                    <li class="list-item"><a href="#">Code</a></li>
+                    <li class="list-item"><a href="#">About</a></li>
+                    <li class="list-item"><a href="#">♥ Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <!-- 히어로 -->
+        <div class="hero-section">
+            <div class="container">
+                <p class="intro-desc">
+                    Django makes it easier to build better Web Apps more quickly and with less code.
+                </p>
+                <a href="#" class="cta">
+                    Get started with Django
+                </a>
+            </div>
+        </div>
+
+        <!-- 메인 -->
+        <div class="container-float">
+            
+            <!-- 메인 LEFT -->
+            <div class="main-content">
+                <h2 class="main-title">
+                Stay in the loop
+                </h2>
+                <p class="main-desc">
+                    Subscribe to one of our mailing lists to stay up to date with everything in the Django community:
+                </p>
+                <div class="mailing-layout">
+                    <div class="mailing">
+                        <h3 class="mailing-title"><a href="#">Using Django</a></h3>
+                        <p class="mailing-desc">Get help with Django and follow announcements.</p>
+                        <form action="#" class="mailing-form">
+                            <label for="email">send email for following news</label>
+                            <input type="email" placeholder="Enter Email" id="announcement-email" name="input-following">
+                            <button type="submit" class="mailing-form-btn">Submit</button>
+                        </form>
+                        <p class="mailing-desc">
+                            You can also subscribe by sending an email to <a href="#">django-users+subscribe@googlegroups.com</a> and following the instructions that will be set to you
+                        </p>
+                    </div>
+                    <div class="mailing">
+                        <h3 class="mailing-title"><a href="#">Contributing to Django</a></h3>
+                        <p class="mailing-desc">Contribute to the development of Django itself.</p>
+                        <form action="#" class="mailing-form">
+                            <label for="email">send email for following news</label>
+                            <input type="email" placeholder="Enter Email" id="contribute-email" name="input-following">
+                            <button type="submit" class="mailing-form-btn">Submit</button>
+                        </form>
+                        <p class="mailing-desc">
+                            Before asking a question about how to contribute, read <a href="#">Contributing to Django. Many frequently asked questions are answered there.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 메인 RIGHT -->
+            <div class="side-content">
+                <div class="container-side-cta">
+                    <a href="#" class="side-cta">Download <p>latest release:2.1.7</p></a>
+                    <a href="#" class="more">Django Documentation ></a>
+                </div>
+                <div class="infos">
+                    <div class="latest-news">
+                        <h2 class="infos-title">Latest news</h2>
+                        <article class="news-article">
+                            <h3 class="news-title"><a href="#">Django bugfix release: 2.1.7, 2.0.12 and 1.11.20</a></h3>
+                            <p class="news-desc">Today the Django project issued bugfix releases for the 2.1,2.0 and 1.11 release series.</p>
+                            <p class="news-meta">posted by <b>Cariton Gibson</b> on <time datetime="2023-07-07">7월 7일, 2023</time></p>
+                        </article>
+                        <a href="#" class="more">More News ></a>
+                    </div>
+                    <div class="get-involved">
+                        <h3 class="infos-title">Get involved</h3>
+                        <div class="list-communities">
+                            <dl>
+                                <dt class="community-title"><a>#django IRC channel</a></dt>
+                                <dd class="community-desc">Chat with other Django users</dd>
+                                <dt class="community-title"><a>Ticket system</a></dt>
+                                <dd class="community-desc">Report bugs and make feature requests</dd>
+                            </dl>
+                        </div>
+                        <a href="#" class="more">Inside the Django Community > </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer">푸터</footer>
+</body>
+</html>
